@@ -52,27 +52,6 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 16,
   },
-  /* Header styles */
-  menuIcon: {
-    width: 24,
-    height: 24,
-  },
-  logoContainer: {
-    alignItems: 'center',
-  },
-  textLogo: {
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
-
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    height: 50,
-    backgroundColor: '#f8f8f8',
-    alignItems: 'center',
-    marginVertical: 10,
-  },
 
   /* content styles */
   content: {
@@ -92,16 +71,5 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     backgroundColor: '#f0f0f0',
     lineHeight: 30,
-  },
-  btn: {
-    marginVertical: 15,
-    paddingHorizontal: 16,
-    borderColor: '#0b0c0bff',
-    borderWidth: 1,
-    paddingVertical: 10,
-    borderRadius: 5,
-    width: 150,
-    alignItems: 'center',
-    backgroundColor: '#f0f0f0',
   },
 });
